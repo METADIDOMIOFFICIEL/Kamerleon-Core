@@ -1,0 +1,193 @@
+// Exemple Caméléon (FR) - Fonctionnalités Complètes
+yamo("=== LANGAGE KAMERLÉON COMPLET ===");
+
+// 1. Système de types
+yamo("1. SYSTÈME DE TYPES");
+ndem nombre = 10;
+ndem texte = "hello";
+ndem estVrai = vrai;
+ndem rien = nulle;
+ndem nonDefini;
+ndem tableau = [1, 2, 3];
+ndem objet = {nom: "Alice", age: 25};
+
+yamo("Nombre: " + nombre);
+yamo("Texte: " + texte);
+yamo("Booléen: " + estVrai);
+yamo("Tableau: " + tableau);
+yamo("Objet: " + JSON.stringify(objet));
+
+// 2. Structures de contrôle complètes
+yamo("\n2. STRUCTURES DE CONTRÔLE");
+
+// Switch/Case
+ndem jour = 3;
+selon (jour) {
+  cas 1:
+    yamo("Lundi");
+    pause;
+  cas 2:
+    yamo("Mardi");
+    pause;
+  cas 3:
+    yamo("Mercredi");
+    pause;
+  cas 4:
+    yamo("Jeudi");
+    pause;
+  cas 5:
+    yamo("Vendredi");
+    pause;
+  defaut:
+    yamo("Weekend");
+}
+
+// 3. Opérateurs avancés
+yamo("\n3. OPÉRATEURS AVANCÉS");
+ndem a = 5;
+a += 3;  // Assignment composé
+a++;     // Incrément
+yamo("a après opérations: " + a);
+yamo("Négation: " + !vrai);
+yamo("Type de a: " + typede a);
+
+// 4. Fonctions avancées
+yamo("\n4. FONCTIONS AVANCÉES");
+
+// Fonction avec paramètres par défaut
+def saluer(nom = "Invité") {
+  retourne "Bonjour " + nom;
+}
+
+// Fonction fléchée
+ndem multiplier = (x, y) => x * y;
+
+// Rest parameters
+def somme(...nombres) {
+  ndem total = 0;
+  pour (ndem n de nombres) {
+    total += n;
+  }
+  retourne total;
+}
+
+yamo(saluer("Alice"));
+yamo("Multiplication: " + multiplier(4, 5));
+yamo("Somme: " + somme(1, 2, 3, 4, 5));
+
+// 5. Programmation orientée objet
+yamo("\n5. PROGRAMMATION ORIENTÉE OBJET");
+
+classe Animal {
+  constructeur(nom) {
+    voici.nom = nom;
+  }
+  
+  parler() {
+    yamo(voici.nom + " fait un bruit");
+  }
+}
+
+classe Chien etend Animal {
+  constructeur(nom, race) {
+    super(nom);
+    voici.race = race;
+  }
+  
+  parler() {
+    yamo(voici.nom + " aboie");
+  }
+  
+  decrire() {
+    retourne voici.nom + " est un " + voici.race;
+  }
+}
+
+ndem monChien = nouveau Chien("Rex", "Berger Allemand");
+monChien.parler();
+yamo(monChien.decrire());
+
+// 6. Programmation asynchrone
+yamo("\n6. PROGRAMMATION ASYNCHRONE");
+
+def attendre(delai) {
+  retourne nouvelle Promesse((resoudre) => {
+    setTimeout(resoudre, delai);
+  });
+}
+
+async def tacheAsynchrone() {
+  yamo("Début de la tâche asynchrone");
+  attendre 1000;
+  yamo("Tâche terminée après 1 seconde");
+}
+
+tacheAsynchrone();
+
+// 7. API standard étendue
+yamo("\n7. API STANDARD ÉTENDUE");
+
+// Manipulation de chaînes
+ndem message = "Bonjour le Monde";
+yamo("Longueur: " + message.longueur);
+yamo("En majuscules: " + message.enMajuscules());
+yamo("Inclut 'Monde': " + message.inclut("Monde"));
+
+// Manipulation de tableaux
+ndem nombres = [1, 2, 3, 4, 5];
+yamo("Tableau original: " + nombres);
+nombres.pousser(6);
+yamo("Après push: " + nombres);
+yamo("Filtré (nombres > 2): " + nombres.filtre(n => n > 2));
+
+// 8. Sécurité
+yamo("\n8. SÉCURITÉ");
+
+// Évaluation sécurisée
+def evaluerSecurise(code) {
+  essaie {
+   ndem resultat = eval(code);
+    yamo("Évaluation réussie: " + resultat);
+  } attrape (erreur) {
+    yamo("Erreur d'évaluation: " + erreur);
+  }
+}
+
+evaluerSecurise("2 + 2");
+
+// 9. Outils de développement
+yamo("\n9. OUTILS DE DÉVELOPPEMENT");
+
+// Debugger
+def testerPerformance() {
+  ndem debut = Date.now();
+  pour (ndem i = 0; i < 1000000; i++) {
+    // Opération simple
+  }
+ ndem fin = Date.now();
+  yamo("Temps d'exécution: " + (fin - debut) + "ms");
+}
+
+testerPerformance();
+
+// 10. Syntaxe étendue
+yamo("\n10. SYNTAXE ÉTENDUE");
+
+// Template literals
+ndem prenom = "Alice";
+ndem age = 25;
+yamo(`${prenom} a ${age} ans`);
+
+// Destructuring
+ndem [premier, deuxieme] = [10, 20];
+yamo("Destructuring: " + premier + ", " + deuxieme);
+
+ndem {nom, age: agePersonne} = {nom: "Bob", age: 30};
+yamo("Destructuring objet: " + nom + ", " + agePersonne);
+
+// Optional chaining et Nullish coalescing
+ndem utilisateur = {profil: {nom: "Charlie"}};
+ndem nomUtilisateur = utilisateur?.profil?.nom ?? "Anonyme";
+yamo("Nom utilisateur: " + nomUtilisateur);
+
+yamo("\n=== TEST TERMINÉ KAMERLÉON AVEC SUCCÈS ===");
