@@ -1,0 +1,3 @@
+// Programme Bonjour le Monde
+affiche("Bonjour le Monde !");
+affiche("Bienvenue dans Kamerléon");
