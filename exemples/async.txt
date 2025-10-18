@@ -1,0 +1,14 @@
+// Programmation Asynchrone
+async def tacheLongue() {
+  affiche("Début de la tâche");
+  attendre 2000;
+  affiche("Tâche terminée après 2 secondes");
+}
+
+def attendre(delai) {
+  retourne nouvelle Promesse((resoudre) => {
+    setTimeout(resoudre, delai);
+  });
+}
+
+tacheLongue();

@@ -1,0 +1,15 @@
+// Boucles et Conditions en français
+pour (let i = 0; i < 5; i++) {
+  affiche("i:", i);
+}
+si (vrai) {
+  affiche("Condition vraie");
+} sinon {
+  affiche("Condition fausse");
+}
+
+let j = 0;
+tantque(j < 3) {
+  affiche("Compteur: " + j);
+  j++;
+}

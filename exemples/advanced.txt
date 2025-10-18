@@ -1,0 +1,100 @@
+// Toutes les fonctionnalités de Kamerléon
+
+// 1. Types étendus
+let grandNombre = 12345678901234567890n;
+let symbole = Symbol("unique");
+
+// 2. Structures de contrôle complètes
+let valeur = 1;
+selon (valeur) {
+  cas 1: affiche("Un"); pause;
+  cas 2: affiche("Deux"); pause;
+  defaut: affiche("Autre");
+}
+
+essaie {
+  // Code potentiellement problématique
+} attrape (erreur) {
+  affiche("Erreur: " + erreur);
+} finalement {
+  affiche("Nettoyage");
+}
+
+// 3. Opérateurs avancés
+let a1 = 0;
+a1 += 5;
+a1++;
+!vrai;
+typede variable;
+
+// 4. Fonctions avancées
+def fonctionAvecDefaut(param = "défaut") {
+  retourne param;
+}
+
+let fonctionFlechee = (x, y) => x + y;
+
+def sommeInfinie(...nombres) {
+  retourne nombres.reduire((acc, val) => acc + val, 0);
+}
+
+// Fonctionnalités avancées en français
+fonction somme(a, b) {
+  retourne a + b;
+}
+pour (let i = 1; i <= 3; i++) {
+  affiche("Somme de ", i, " et 2 : ", somme(i, 2));
+}
+
+// 5. POO complète
+classe Forme {
+  constructeur(couleur) {
+    this.couleur = couleur;
+  }
+  
+  decrire() {
+    retourne "Forme " + this.couleur;
+  }
+}
+
+classe Cercle etend Forme {
+  constructeur(couleur, rayon) {
+    super(couleur);
+    this.rayon = rayon;
+  }
+  
+  aire() {
+    retourne Math.PI * this.rayon * this.rayon;
+  }
+}
+
+// 6. Asynchrone
+async def traitementDonnees() {
+  let donnees = attendre chargerDonnees();
+  retourne donnees.traiter();
+}
+
+// 7. API étendue
+let texte = "Bonjour";
+affiche(texte.longueur);
+affiche(texte.enMajuscules());
+
+let nombres = [1, 2, 3];
+nombres.pousser(4);
+affiche(nombres.filtre(n => n > 2));
+
+// 8. Sécurité
+function evaluerSecurise(expression) {
+  // N’évalue que des expressions mathématiques simples
+  return Function('"use strict";return (' + expression + ')')();
+}
+evaluerSecurise("2 + 2");
+
+// 9. Outils
+debogueur;
+
+// 10. Syntaxe moderne
+let [a, b] = [1, 2];
+let {x, y} = {x: 10, y: 20};
+let utilisateur = { profil: { nom: "Jean" } };
+let nom = utilisateur?.profil?.nom ?? "Anonyme";

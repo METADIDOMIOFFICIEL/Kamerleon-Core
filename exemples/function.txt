@@ -1,0 +1,11 @@
+// Définition et utilisation de fonctions
+def direBonjour(nom) {
+  retourne "Bonjour, " + nom + "!";
+}
+
+def calculerCarre(x) {
+  retourne x * x;
+}
+
+affiche(direBonjour("Alice"));
+affiche("Le carré de 5 est " + calculerCarre(5));

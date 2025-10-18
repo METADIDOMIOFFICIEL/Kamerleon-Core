@@ -1,0 +1,35 @@
+// Programmation orientée objet avec classes en français
+classe Animal {
+  constructeur(nom) {
+    this.nom = nom;
+  }
+  
+  parler() {
+    affiche(this.nom + " fait un bruit");
+  }
+}
+
+classe Chien etend Animal {
+  constructor(nom, race) {
+    super(nom);
+    this.race = race;
+  }
+  
+  parler() {
+    affiche(this.nom + " aboie");
+  }
+}
+
+classe Personne {
+  constructeur(nom) {
+    this.nom = nom;
+  }
+  saluer() {
+    affiche("Bonjour, je m'appelle " + this.nom);
+  }
+}
+let p = new Personne("Alice");
+p.saluer();
+
+let monChien = nouveau Chien("Rex", "Berger");
+monChien.parler();
