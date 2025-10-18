@@ -41,13 +41,9 @@ Kamerléon — Le code qui parle votre langue.
 
 ## 📸 Aperçu 
 
-| Image 1 | Image 2 | Image 3 | Image 4 |
-|---------|---------|---------|---------|
-| ![](/docs/Capturer.PNG) | ![](/docs/Capturer1.PNG) | ![](/docs/Capturer2.PNG) | ![](/docs/Capturer3.PNG) |
-
-| Image 5 |
+| Image 1 |
 |---------|
-| ![](/docs/Capturer4.PNG) | ![](/docs/Capturer5.PNG) | 
+| ![](/docs/Capturer.PNG) |
 
 ---
 ## 🎥 Vidéo Démo:
