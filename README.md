@@ -43,15 +43,11 @@ Kamerléon — Le code qui parle votre langue.
 
 | Image 1 | Image 2 | Image 3 | Image 4 |
 |---------|---------|---------|---------|
-| ![](/docs/Screenshot_20250821-202416.jpg) | ![](/docs/Screenshot_20250821-202606.jpg) | ![](/docs/Screenshot_20250821-202618.jpg) | ![](/docs/Screenshot_20250821-202546.jpg) |
+| ![](/docs/Capturer.PNG) | ![](/docs/Capturer1.PNG) | ![](/docs/Capturer2.PNG) | ![](/docs/Capturer3.PNG) |
 
 | Image 5 | Image 6 | Image 7 | Image 8 |
 |---------|---------|---------|---------|
-| ![](/docs/Screenshot_20250821-202539.jpg) | ![](/docs/Screenshot_20250821-202505.jpg) | ![](/docs/Screenshot_20250821-202530.jpg) | ![](/docs/Screenshot_20250821-202523.jpg) |
-
-| Image 9 | Image 10 | Image 11 | Image 12 |
-|---------|----------|----------|----------|
-| ![](/docs/Screenshot_20250821-202448.jpg) | ![](/docs/Screenshot_20250821-202436.jpg) | ![](/docs/Screenshot_20250821-202440.jpg) | ![](/docs/Screenshot_20250821-202627.jpg) |
+| ![](/docs/Capturer4.PNG) | ![](/docs/Capturer5.PNG) | 
 
 ---
 ## 🎥 Vidéo Démo:
