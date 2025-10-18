@@ -45,13 +45,6 @@ Kamerléon — Le code qui parle votre langue.
 |---------|
 | ![](/docs/Capturer_kamer.PNG) |
 
----
-## 🎥 Vidéo Démo:
-
-[![Utilise ton propre navigateur web, voici un navigateur web OCS (Open Closed Source) pour les nuls](https://img.youtube.com/vi/6gEEQseWpIM/0.jpg)](https://youtu.be/6gEEQseWpIM)
-
----
-
 ## ⚡ Installation
 
 ## Prérequis
