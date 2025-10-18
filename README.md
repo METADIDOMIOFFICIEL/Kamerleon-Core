@@ -43,7 +43,7 @@ Kamerléon — Le code qui parle votre langue.
 
 | Image 1 |
 |---------|
-| ![](/docs/Capturer.PNG) |
+| ![](/docs/Capturer_kamer.PNG) |
 
 ---
 ## 🎥 Vidéo Démo:
