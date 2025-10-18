@@ -18,7 +18,7 @@ Apprenez à coder dans votre langue ou explorez de nouveaux langages sans barri�
 Adaptez les mots-clés, changez la syntaxe, créez un environnement à votre image.
 
 ⚙️ Exécution directe du code (hors ligne)
-Testez vos scripts en JavaScript, Python (Pyodide) ou Lua (Fengari) — sans rien installer.
+Testez vos scripts en JavaScript, Python ou Lua — sans rien installer.
 
 🖥️ Interface moderne et intuitive
 Coloration syntaxique, minimap, sidebar interactive, thèmes variés, drag & drop.
@@ -28,9 +28,6 @@ Les messages d’erreur sont traduits et expliqués pour faciliter l’apprentis
 
 📁 Import / export simplifié
 Sauvegardez, partagez ou restaurez vos mots-clés et configurations en un clic.
-
-🔒 Sécurité renforcée
-Accès par clé d’activation pour protéger votre environnement et vos projets.
 
 💬 Rejoignez la communauté
 
