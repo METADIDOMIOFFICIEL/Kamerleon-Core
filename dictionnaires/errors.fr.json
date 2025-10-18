@@ -1,0 +1,12 @@
+{
+  "missing ) after argument list": "parenthèse fermante manquante après la liste des arguments",
+  "Unexpected token": "Jeton inattendu",
+  "Unexpected end of input": "Fin de fichier inattendue",
+  "Unexpected identifier": "Identifiant inattendu",
+  "Unexpected string": "Chaîne inattendue",
+  "Unexpected number": "Nombre inattendu",
+  "Unexpected reserved word": "Mot réservé inattendu",
+  "Unexpected": "Inattendu",
+  "Unterminated string constant": "Chaîne non terminée",
+  "error_at_line_col": "Erreur à la ligne {line}, colonne {col} : "
+}
