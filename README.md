@@ -45,6 +45,8 @@ Kamerléon — Le code qui parle votre langue.
 |---------|
 | ![](/docs/Capturer_kamer.PNG) |
 
+- [Télécharger Kamerléon v-1.0.171025 BETA](https://github.com/METADIDOMIOFFICIEL/Kamerleon-Core/releases/download/New/Kamerleon.v-1.0.171025.BETA.exe)
+
 ## ⚡ Installation
 
 ## Prérequis
