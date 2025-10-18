@@ -1,7 +1,7 @@
 # KAMERLEON
 
 [![Sponsor Lygos](https://img.shields.io/badge/Sponsor-Lygos-blue?style=for-the-badge)](https://pay.lygosapp.com/$etsmeta)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-core-1.0.171025-BETA-blue)
 ![License](https://img.shields.io/badge/license-OCS-green)
 ![Stars](https://img.shields.io/github/stars/METADIDOMIOFFICIEL/MetadidomiCrone?style=social)
 ![Issues](https://img.shields.io/github/issues/[METADIDOMIOFFICIEL/MetadidomiCrone])
